@@ -1,0 +1,215 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    background-image: url("k.png");
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+#search {
+    width: calc(100% - 120px);
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#searchButton {
+    padding: 10px;
+}
+
+.destination-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    width: 1%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    max-width: 100%;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.card h2 {
+    margin-top: 10px;
+}
+
+.card button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    height: 40px;
+    cursor: pointer;
+    /* border-radius: 2px; */
+    transition: background-color 0.3s ease;
+}
+
+.card button:hover {
+    background-color: #2b5a2b;
+}
+
+.details {
+    display: none;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.details p {
+    margin: 5px 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 0; /* Remove any existing left margins */
+   
+}
+
+.itinerary-item {
+    background: rgb(114, 70, 70);
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #431414;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.itinerary-item button {
+    background-color: #4d2827;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+   
+}
+
+.itinerary-item button:hover {
+    background-color: #c9302c;
+}
+
+.card {
+    border: 1px solid #ccc;
+    /* border-radius: 5px; */
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    width: 300px;
+}
+.details {
+    display: none; /* Hide details by default */
+    margin-top: 10px;
+}
+.itinerary-button {
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 0; /* Ensures it aligns to the left */
+    display: inline-block; /* Makes sure it behaves like a normal inline button */
+}
+
+.itinerary-button:hover {
+    background-color: #0056b3;
+}
+.itineraryList {
+    margin-left: 0; /* Remove any existing left margins */
+    float: left; /* Align button to the left */
+}
+/* Container for search bar and itinerary button */
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+/* Style the search input */
+#search {
+    width: 450px; /* Adjust width to fit nicely */
+    padding: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 2px;
+}
+
+/* Style for the search button */
+#searchButton {
+    padding: 10px;
+    margin-right: 3px;
+    margin-top: 0pc;
+}
+
+/* Style for the Itinerary button */
+.itinerary-button {
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    /* border-radius: 5px; */
+    cursor: pointer;
+    display: inline-block;
+}
+
+.itinerary-button:hover {
+    background-color: #0056b3;
+}
+/* Adjust spacing between buttons inside the card */
+/* Style for individual buttons within the card */
+.card button {
+    padding: 10px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 60px;
+    transition: background-color 0.3s ease;
+    margin: 5px 10px 5px 0; /* Adjusted margins: 5px top/bottom, 10px right, 0px left */
+}
+
+/* Optional: Style View button and Add button differently if needed */
+.view-button {
+    background-color: #007bff;
+}
+
+/* Style for the Back button */
+.back-button {
+    padding: 10px 15px;
+    background-color: #007bff; /* Red background color */
+    color: white; /* White text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    
+    margin-left: 10px;
+    margin-bottom: 2px;
+    margin-left: 0px;
+ /* Margin around the button */
+    
+}
+
+/* Change background color on hover for Back button */
+.back-button:hover {
+    background-color: #146142; /* Darker red on hover */
+}
